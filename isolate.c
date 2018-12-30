@@ -24,15 +24,15 @@
 #include <grp.h>
 #include <mntent.h>
 #include <limits.h>
-#include <sys/wait.h>
-#include <sys/time.h>
-#include <sys/signal.h>
-#include <sys/resource.h>
-#include <sys/mount.h>
-#include <sys/stat.h>
-#include <sys/quota.h>
-#include <sys/vfs.h>
-#include <sys/fsuid.h>
+#include <wait.h>
+#include <time.h>
+#include <signal.h>
+#include <resource.h>
+#include <mount.h>
+#include <stat.h>
+#include <quota.h>
+#include <vfs.h>
+#include <fsuid.h>
 
 /* May not be defined in older glibc headers */
 #ifndef MS_PRIVATE
